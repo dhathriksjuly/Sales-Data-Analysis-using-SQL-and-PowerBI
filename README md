@@ -15,7 +15,7 @@ Go to the project directory and open ``` .pbix ``` file with Microsoft Power BI 
 1. Show all customer records
 
     `SELECT * FROM customers;`
-
+https://github.com/deepamkalekar/Sale-Data-Analysis-PowerBI/blob/master/Sales-key-insight.png
 1. Show total number of customers
 
     `SELECT count(*) FROM customers;`
@@ -48,6 +48,8 @@ Go to the project directory and open ``` .pbix ``` file with Microsoft Power BI 
 
     `SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020
 and transactions.market_code="Mark001
+
+
 
 
 
